@@ -7,7 +7,7 @@ const Checkout = () => import('@/views/Checkout.vue')
 const Cart = () => import('@/views/Cart.vue')
 const AppE404 = () => import('@/views/E404.vue')
 
-const routes: Array<RouteRecordRaw> = [
+export const routes: Array<RouteRecordRaw> = [
   {
     name: 'catalog',
     path: '/',
