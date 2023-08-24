@@ -29,7 +29,7 @@
         </menu>
       </div>
       <!-- Second Navigation Menu  -->
-      <div class="flex flex-row ml-auto">
+      <div class="ml-auto">
         <menu class="flex flex-row">
           <div class="mr-3">In Cart: {{ cartsLength }}</div>
           <div>Total: {{ formatPrice(cartsTotal) }}</div>

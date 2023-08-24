@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NavbarMenu.vue component > should match snapshot 1`] = `
+"<header id=\\"header\\" class=\\"bg-slate-100 shadow drop-shadow-lg\\">
+  <nav class=\\"container mx-auto flex flex-row justify-start items-center p-8 px-2\\">
+    <!-- Primary Navigation Menu -->
+    <div>
+      <menu class=\\"flex flex-row text-md mr-5\\">
+        <router-link-stub to=\\"[object Object]\\" custom=\\"false\\" exact-active-class=\\"text-blue-500\\"></router-link-stub>
+      </menu>
+    </div>
+    <div>
+      <menu class=\\"flex flex-row text-md mr-5\\">
+        <router-link-stub to=\\"[object Object]\\" custom=\\"false\\" exact-active-class=\\"text-blue-500\\"></router-link-stub>
+      </menu>
+    </div>
+    <div>
+      <menu class=\\"flex flex-row text-md mr-5\\">
+        <router-link-stub to=\\"[object Object]\\" custom=\\"false\\" exact-active-class=\\"text-blue-500\\"></router-link-stub>
+      </menu>
+    </div><!-- Second Navigation Menu  -->
+    <div class=\\"ml-auto\\">
+      <menu class=\\"flex flex-row\\">
+        <div class=\\"mr-3\\">In Cart: 0</div>
+        <div>Total: $0.00</div>
+      </menu>
+    </div>
+  </nav>
+</header>"
+`;
