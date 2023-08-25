@@ -5,7 +5,7 @@ const BASE_URL = 'http://faceprog.ru/reactcourseapi/products'
 export const useProductStore = defineStore('productStore', {
 	state: () => ({
 		products: []
-	}) as Products[],
+	}) as Product[],
 	actions: {
 		setProducts(products: Product) {
 			this.products = products
