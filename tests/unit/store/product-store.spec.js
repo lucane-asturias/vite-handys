@@ -1,5 +1,4 @@
 import { createPinia, setActivePinia } from 'pinia'
-import { shallowMount } from '@vue/test-utils'
 import { useProductStore } from '@/store/productStore'
 import { productsMockData } from '../__mocks__/mock-data/products-data'
 
@@ -17,11 +16,14 @@ describe('Pinia - Product Store', () => {
   beforeEach(() => {
     setActivePinia(createPinia())
 
-    // create an instance of the auth store
+    // create an instance of the product store
     productStore = useProductStore()
   })
 
-  afterEach(() => vi.clearAllMocks())
+  afterEach(() => {
+    global.fetch.mockReset()
+    vi.clearAllMocks()
+  })
 
   // Basics ==================
   
