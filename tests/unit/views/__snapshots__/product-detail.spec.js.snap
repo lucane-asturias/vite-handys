@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductDetail.vue component > should match snapshot 1`] = `
+"<div data-v-95e08fb6=\\"\\" class=\\"mt-5\\">
+  <p data-v-95e08fb6=\\"\\" class=\\"text-3xl font-bold\\">Samsung AAZ8</p>
+  <hr data-v-95e08fb6=\\"\\" class=\\"h-px my-2\\">
+  <div data-v-95e08fb6=\\"\\" class=\\"alert p-4 rounded-lg border-1 border-emerald-700\\"> Price: $22,000.00</div>
+  <router-link-stub data-v-95e08fb6=\\"\\" to=\\"[object Object]\\" custom=\\"false\\" class=\\"mt-4 inline-block rounded py-2 px-3 bg-emerald-600 text-white hover:bg-emerald-700\\"></router-link-stub>
+</div>"
+`;
