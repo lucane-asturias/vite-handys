@@ -24,10 +24,11 @@ describe('Pinia - Cart Store', () => {
       cart: [{
         id: 105,
         cnt: null
-    }],
-      token: "this-is-a-test",
-      needUpdate: true
-    }))
+      }],
+        token: "this-is-a-test",
+        needUpdate: true
+      }
+    ))
 
     setActivePinia(createPinia())
 
@@ -72,7 +73,6 @@ describe('Pinia - Cart Store', () => {
     expect(setItemSpy).toHaveBeenCalled()
 
     const cartObj = { cart: expect.any(Array) }
-    const cartTokenObj = { token: "this-is-a-test"}
 
     expect(localStorage.getItem('CART__TOKEN')).toBe('this-is-a-test')
     expect(cartStore.carts).toStrictEqual([{ id: 105, qnt: null }])
