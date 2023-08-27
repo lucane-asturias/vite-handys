@@ -25,10 +25,9 @@ describe('Pinia - Cart Store', () => {
         id: 105,
         cnt: null
       }],
-        token: "this-is-a-test",
-        needUpdate: true
-      }
-    ))
+      token: "this-is-a-test",
+      needUpdate: true
+    }))
 
     setActivePinia(createPinia())
 
